@@ -5,15 +5,16 @@ Exercício de criação de uma Landing Page utilizando HTML5 e CSS3. Quase nada 
 
 Com responsividade para equipamentos Desktop e móveis.
 
-https://github.com/antonio-slivak/Projetos_HTML5_CSS3_Landing-Page-Chair10/blob/main/assets/images/inicial.PNG
-
-https://github.com/antonio-slivak/Projetos_HTML5_CSS3_Landing-Page-Chair10/blob/main/assets/images/mouseover.PNG
-
-https://github.com/antonio-slivak/Projetos_HTML5_CSS3_Landing-Page-Chair10/blob/main/assets/images/pagina2.PNG
-
-https://github.com/antonio-slivak/Projetos_HTML5_CSS3_Landing-Page-Chair10/blob/main/assets/images/chairs.PNG
-
-https://github.com/antonio-slivak/Projetos_HTML5_CSS3_Landing-Page-Chair10/blob/main/assets/images/responsive.PNG
+![image-20211014095130220](assets/images/inicial.jpg)
 
 
 
+![image-20211014095259293](assets/images/pagina2.jpg)
+
+
+
+![image-20211014095517051](assets/images/satisfacao.jpg)
+
+
+
+![image-20211014095435066](assets/images/oquemaisgosta.jpg)
