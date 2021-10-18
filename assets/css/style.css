@@ -1,0 +1,226 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    align-content: center;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+html,
+body {
+  background-color: #FFF;
+  text-align: center;
+  font-family: 'Raleway', Helvetica, sans-serif;
+  min-width: 320px;
+}
+
+header.header{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    height: 10;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;
+    background:#3a3535;
+}
+
+.content{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+    padding:0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    max-height: 50px;
+}
+
+header.header .content h2{
+    color: white;
+    align-items: center;
+    font-size: 25px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+header.header .content span{
+    color: #eeede7;
+    font-size: 28px;
+}
+
+header img {
+    max-width:70%;
+    max-height: 70%;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.principal {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+    color: #000;
+}
+
+.texto_principal {
+  position: absolute;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  top: 60px;
+  left: 27px;
+}
+
+.background {
+    background-image: url('./assets/images/background_chairio.png');
+    background-repeat: no-repeat;
+    position: relative;
+    width: 100%;
+    height: 610px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bahia {
+  position: absolute;
+  top: 60px;
+  right: -10px;
+  max-height: 80%;
+  max-width: 80%;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    padding-bottom: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    outline-offset: 4px;
+}
+
+.front {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: black;
+  color: white;
+  transform: translateY(-6px);
+}
+
+.button:active .front {
+  transform: translateY(-2px);
+}
+
+
+.chairs {
+  display: flex;
+  width: 100%;
+  padding: 4% 2%;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.box {
+  flex: 1;
+  overflow: hidden;
+  transition: .5s;
+  margin: 0 2%;
+  box-shadow: 0 20px 30px rgba(0,0,0,.1);
+  line-height: 0;
+}
+
+.box > img {
+  width: 200%;
+  height: calc(100% - 10vh);
+  object-fit: cover; 
+  transition: .5s;
+}
+
+.box > span {
+  font-size: 2.8vh;
+  display: block;
+  text-align: center;
+  height: 10vh;
+  line-height: 2.6;
+}
+
+.box:hover { flex: 1 1 50%; }
+.box:hover > img {
+  width: 100%;
+  height: 90%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background: #444;
+}
+
+.footer span{
+    margin-top: 30px 0;
+    padding: 40px 0;
+    font: 400 13px 'Roboto', Helvetica, sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+
+.footer span a{
+    margin: 0 3px;
+    text-decoration: none;
+    color: #927275;
+}
+
+.footer span a:hover{
+    text-decoration: underline;
+}
+
+.copyleft {
+    display:inline-block;
+    transform: rotate(180deg);
+  }
+
+@media screen and (max-width: 833px) {
+
+  .bahia {
+    position: absolute;
+    top: 280px;
+    right: 70px;
+    max-height: 80%;
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 520px) {
+
+  .bahia {
+    position: absolute;
+    top: 280px;
+    right: 70px;
+    max-height: 80%;
+    max-width: 80%;
+  }
+
+}
